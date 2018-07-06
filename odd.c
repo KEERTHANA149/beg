@@ -6,7 +6,9 @@ int n;
 scanf("%d",&n)
 if(n%2==0)
 printf("even");
-else
+elseif(n%2==1)
 printf("odd");
-getch();
+  else
+    printf("invalid");
+    getch();
 }
